@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Verificador de Idades
+        </h1>
+    </header>
+
+    <section>
+        <div class="container">
+            <p>Ano de nascimento:
+                <input type="number" id="txtano">
+            </p>
+            <p class="opcoes"> Sexo:
+                <input type="radio" id="masc" name="radsex" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" id="fem" name="radsex">
+                <label for="fem">Feminino</label>
+            </p>
+            <p class="botao">
+                <input type="button" id="botao" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="resultado">
+           
+        </div>
+    </section>
+    <footer>
+        <p> &copy; Feito por Vitor Freitas do Nascimento</p>
+    </footer>
+    
+    <script src="code.js"></script>
+</body>
+</html>
