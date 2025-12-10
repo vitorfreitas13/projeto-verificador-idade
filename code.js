@@ -1,17 +1,17 @@
-function verificar() {
-    var data = new Date()
-    var ano = data.getFullYear()
-    var nascimento = window.document.querySelector('input#txtano')
-    var resultado = window.document.querySelector('div#resultado')
+function verificar() { // chama a função criada no html.
+    var data = new Date() // cria uma variável informações do objeto(data, hora.....)
+    var ano = data.getFullYear() // pega do objeto o ano atual
+    var nascimento = window.document.querySelector('input#txtano') //pega o valor do input selecionado e guarda.
+    var resultado = window.document.querySelector('div#resultado') //pega o valor da div selecionada e guarda.
 
-    if (nascimento.value.length == 0 || Number(nascimento.value) > ano) {
+    if (nascimento.value.length == 0 || Number(nascimento.value) > ano) { // cria uma condição caso o valor seja invalido.
         window.alert('Erro! Dados invalidos, tente novamente!')
-    } else {
-        var sexo = document.getElementsByName('radsex')
-        var idade = ano - Number(nascimento.value)
-        var genero = ''
-        var img = document.createElement('img')
-        img.setAttribute('id', 'foto')
+    } else {                                                              // cria uma condição caso o valor seja vállido.
+        var sexo = document.getElementsByName('radsex')         // pega o objeto que tem o nome selecionado
+        var idade = ano - Number(nascimento.value)              // faz a subtração para encontrar quantos anos a pessoa tem e guarda
+        var genero = ''             // cria uma variável vazia
+        var img = document.createElement('img') // criando um elemento
+        img.setAttribute('id', 'foto')      // adicionando atributos
 
         if (sexo[0].checked) {
             genero = 'Homem'
