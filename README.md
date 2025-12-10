@@ -13,11 +13,3 @@ Este projeto permite que o usuário insira uma data de nascimento e, com base na
 - CSS  
 - JavaScript  
 
-## 📁 Estrutura do repositório
-/
-├── index.html ← página principal / interface do usuário
-├── style.css ← estilos da página
-├── code.js ← lógica de cálculo de idade e verificação
-├── *.png ← imagens utilizadas para cada categoria (menino, menina, jovem, adulto, idoso, etc.)
-├── README.md ← documentação do projeto
-└── LICENSE ← licença do projeto
