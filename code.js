@@ -39,7 +39,12 @@ function verificar() {
         }
 
         resultado.style.textAlign = 'center'
+        resultado.style.fontSize = '0.8em'
+        resultado.style.background = '#b7b8beff'
+        resultado.style.padding = '5px'
+        resultado.style.borderRadius = '10px'
         resultado.innerHTML = `Detectamos ${genero} com ${idade} anos!`
+
         resultado.appendChild(img)
 
         // Correção do erro da section

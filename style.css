@@ -29,8 +29,8 @@ header {
 
 section {
     background-color: #fff;
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 450px;
     margin: auto;
     border-radius: 20px;
 
@@ -41,6 +41,10 @@ section {
     gap: 20px;
 
     transition: 0.5s;
+}
+input#txtano{
+    width: 80px;
+    text-align: center;
 }
 
 .opcoes {
