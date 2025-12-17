@@ -1,15 +1,26 @@
-# Projeto Verificador de Idade
+# Verificador de Idades
 
-Ferramenta simples para verificar a idade de uma pessoa e categorizar como criança, jovem, adulto ou idoso.
+Projeto simples de front-end criado para praticar **JavaScript, manipulação do DOM e lógica de programação**. Permite ao usuário inserir o ano de nascimento e o sexo, retornando a idade calculada e uma mensagem correspondente.
 
-## 🧾 Sobre
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
 
-Este projeto permite que o usuário insira uma data de nascimento e, com base na data atual, o sistema calcula a idade e exibe uma categoria (criança, jovem, adulto, idoso).  
-Útil para aplicações de filtro de idade, validações de acesso ou apenas como exercício de lógica/JS.
+## Funcionalidades
+- Entrada do ano de nascimento
+- Seleção do sexo (masculino ou feminino)
+- Cálculo da idade
+- Exibição do resultado de forma dinâmica na página
 
-## 🚀 Tecnologias utilizadas
+## Objetivo
+Praticar:
+- Manipulação de elementos HTML via JavaScript
+- Eventos e funções
+- Estruturas de controle (if/else)
+- Interação com o usuário
 
-- HTML  
-- CSS  
-- JavaScript  
+> Este repositório é voltado para **estudo e prática de front-end**, ideal para consolidar conceitos básicos de JavaScript e DOM.
+
+
 
